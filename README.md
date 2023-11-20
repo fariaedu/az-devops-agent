@@ -9,3 +9,6 @@ Linux selfhosted agent for azure devops
 |AZP_AGENT_NAME	       | Agent name (default value: the container hostname). |
 |AZP_POOL	           | Agent pool name (default value: Default). |
 |AZP_WORK	           | Work directory (default value: _work). |
+
+
+This Image was created based on the [Microsoft official doc](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops&tabs=yaml%2Cbrowser)
