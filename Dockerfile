@@ -16,6 +16,6 @@ RUN useradd agent
 RUN chown agent ./
 USER agent
 # Another option is to run the agent as root.
-# ENV AGENT_ALLOW_RUNASROOT="true"
+ENV AGENT_ALLOW_RUNASROOT="true"
 
 ENTRYPOINT ./start.sh
