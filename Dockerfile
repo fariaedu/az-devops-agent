@@ -1,7 +1,7 @@
 # =========================
 # Base dependency layer
 # =========================
-FROM ubuntu:22.04 AS dependencies
+FROM ubuntu:26.04 AS dependencies
 
 ENV DEBIAN_FRONTEND=noninteractive
 
@@ -27,7 +27,7 @@ RUN apt-get update && \
 # =========================
 # Final runtime image
 # =========================
-FROM ubuntu:22.04
+FROM ubuntu:26.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 
